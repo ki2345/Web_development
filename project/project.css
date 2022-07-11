@@ -1,0 +1,65 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#header{
+    width: 100%;
+    height: 150px;
+    background-image: linear-gradient(to top right, white, black, grey);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#header img{
+    position: fixed;
+    left: 50px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+nav ul li a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 25px;
+    text-transform: uppercase;
+    padding: 0px 30px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+#back{
+    width: 100%;
+    height: 639px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("https://static.wixstatic.com/media/84770f_38f03f480e824db487b4403a6937c874.png/v1/fill/w_1583,h_749,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/84770f_38f03f480e824db487b4403a6937c874.png");
+}
+#back h2{
+    padding-top: 140px;
+    color: rgb(226, 226, 171);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.fa-play{
+    color: rgb(236, 217, 217);
+    position: fixed;
+    top: 500px;
+    left: 750px;
+    transition: 1s;
+}
+.fa-play:hover{
+    color: red;
+    transform: rotate(360deg);
+}
+nav ul li a:hover {
+    background-color: lightgrey;
+    color: black;
+  }
