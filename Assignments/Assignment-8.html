@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practical-7</title>
+    <style>
+        body{
+            margin: 0px;
+            padding: 0px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        #header{
+            background-color: grey;
+            width: 100%;
+            height: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #header h2{
+            color: white;
+            font-size: 40px;
+            
+        }
+        #banner{
+            width: 100%;
+            height: 680px;
+            background-color: lightblue;
+            margin-top: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #banner h2{
+            color: white;
+            font-size: 40px;
+        }
+        h1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 40px;
+        }
+        .circle{
+            width:250px;
+            height:250px;
+            background-color: orange;
+            border-radius: 50%;
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            margin: 20px;
+        }
+        main{
+            width: 50%;
+            height: 600px;
+            background-color: grey;
+        }
+        #sec-2{
+            display: flex;
+            justify-content: center;
+        }
+        #sec-2 main{
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 40px;
+        }
+        aside{
+            width: 50%;
+            height: 600px;
+        }
+        aside .art{
+            width: 100%;
+            height: 186.5px;
+            background-color: orange;
+            margin-bottom: 20px;
+            justify-content: space-between;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 20px;
+        }
+        #sec-3{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            margin: 20px 20px;
+        }
+        #sec-3 .box{
+            width: 20%;
+            height: 350px;
+            background-color: red;
+        }
+        #footer{
+            width: 100%;
+            height: 150px;
+            background-color: rgb(255, 181, 255);
+            color: white;
+            font-size: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <h2>Header</h2>
+    </div>
+    <div id="banner">
+        <h2>Banner</h2>
+    </div>
+    <h1>Section-1</h1>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <h1>Section-2</h1>
+    <section id="sec-2">
+        <main>Main content</main>
+        <aside>
+            <article id="art1" class="art">Article-1</article>
+            <article id="art2" class="art">Article-2</article>
+            <article id="art3" class="art">Article-3</article>
+        </aside>
+    </section>
+    <h1>Section-3</h1>
+    <section id="sec-3">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </section>
+    <div id="footer">Footer</div>
+</body>
+</html>
